@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" font-family="'Space Grotesk','Segoe UI',sans-serif">
+  <rect width="1000" height="520" fill="#FAFFF2"/>
+  <text x="60" y="72" font-size="34" font-weight="700" fill="#1C1716">Markerante — Paleta 2026</text>
+  <text x="60" y="104" font-size="15" fill="#6B6560">Rebrand: dorado → verde lima · negro + lima como combinación firma, coral como acento cálido</text>
+
+  <!-- Primary swatches -->
+  <g>
+    <!-- Negro -->
+    <rect x="60" y="140" width="170" height="150" rx="10" fill="#1C1716"/>
+    <text x="76" y="322" font-size="16" font-weight="600" fill="#1C1716">Negro Markerante</text>
+    <text x="76" y="344" font-size="14" fill="#6B6560">#1C1716 · base</text>
+
+    <!-- Lima -->
+    <rect x="250" y="140" width="170" height="150" rx="10" fill="#E5FC78"/>
+    <text x="266" y="322" font-size="16" font-weight="600" fill="#1C1716">Verde Lima</text>
+    <text x="266" y="344" font-size="14" fill="#6B6560">#E5FC78 · hero</text>
+
+    <!-- Coral -->
+    <rect x="440" y="140" width="170" height="150" rx="10" fill="#FF6B4A"/>
+    <text x="456" y="322" font-size="16" font-weight="600" fill="#1C1716">Coral</text>
+    <text x="456" y="344" font-size="14" fill="#6B6560">#FF6B4A · acento aux</text>
+
+    <!-- Marfil -->
+    <rect x="630" y="140" width="170" height="150" rx="10" fill="#FAFFF2" stroke="#E8E7E2"/>
+    <text x="646" y="322" font-size="16" font-weight="600" fill="#1C1716">Marfil</text>
+    <text x="646" y="344" font-size="14" fill="#6B6560">#FAFFF2 · fondo</text>
+
+    <!-- Blanco -->
+    <rect x="820" y="140" width="120" height="150" rx="10" fill="#FEFEFE" stroke="#E8E7E2"/>
+    <text x="836" y="322" font-size="16" font-weight="600" fill="#1C1716">Blanco</text>
+    <text x="836" y="344" font-size="14" fill="#6B6560">#FEFEFE</text>
+  </g>
+
+  <!-- Firma combo demo -->
+  <rect x="60" y="380" width="440" height="100" rx="10" fill="#1C1716"/>
+  <text x="90" y="432" font-size="30" font-weight="700" fill="#E5FC78">MARKERANTE</text>
+  <text x="90" y="460" font-size="13" fill="#FAFFF2">lima sobre negro · combinación firma</text>
+
+  <!-- Coral CTA demo -->
+  <rect x="520" y="380" width="200" height="100" rx="10" fill="#FF6B4A"/>
+  <text x="548" y="428" font-size="18" font-weight="700" fill="#1C1716">Pide ahora →</text>
+  <text x="548" y="454" font-size="12" fill="#1C1716">CTA · texto negro sobre coral</text>
+
+  <!-- Neutros -->
+  <rect x="740" y="380" width="60" height="100" rx="8" fill="#2A2422"/>
+  <rect x="808" y="380" width="60" height="100" rx="8" fill="#6B6560"/>
+  <rect x="876" y="380" width="64" height="100" rx="8" fill="#E8E7E2"/>
+  <text x="740" y="500" font-size="12" fill="#6B6560">Grafito · Gris medio · Gris claro (UI)</text>
+</svg>
