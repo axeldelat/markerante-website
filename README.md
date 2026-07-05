@@ -16,8 +16,8 @@ pnpm dev                     # http://localhost:3000
 
 | Variable | Qué es | Ejemplo |
 |---|---|---|
-| `NEXT_PUBLIC_APP_URL` | URL base del app del generador (otro deploy). Los CTAs apuntan a `/crear` y `/login` de esta URL. | `https://app.markerante.com` |
-| `NEXT_PUBLIC_SITE_URL` | URL canónica de este sitio (metadata, sitemap, llms.txt). | `https://markerante.com` |
+| `NEXT_PUBLIC_APP_URL` | URL base del app del generador (otro deploy, vive en la raíz del dominio). Los CTAs apuntan a `/crear` y `/login` de esta URL. | `https://markerante.com` |
+| `NEXT_PUBLIC_SITE_URL` | URL canónica de este sitio (metadata, sitemap, llms.txt). El landing vive en `www`. | `https://www.markerante.com` |
 
 ## Estructura
 
@@ -40,11 +40,11 @@ Deploy en **Vercel** (proyecto `website-markerante-2026`):
 vercel --prod
 ```
 
-Configura `NEXT_PUBLIC_APP_URL` y `NEXT_PUBLIC_SITE_URL` en las Environment Variables del proyecto en Vercel. Dominio de producción: `markerante.com`.
+Configura `NEXT_PUBLIC_APP_URL` y `NEXT_PUBLIC_SITE_URL` en las Environment Variables del proyecto en Vercel. Dominio de producción del landing: `www.markerante.com` (la raíz `markerante.com` es del app del generador).
 
 ## Pendientes de negocio (placeholders en el sitio)
 
 - Nombre y estructura del plan de pago (`/precios` y sección S9).
 - Contenido legal real de `/legal/terminos` y `/legal/privacidad` (ARCO).
 - Screenshot real del sitio demo para la sección "Mira un ejemplo".
-- URL final del app del generador (`NEXT_PUBLIC_APP_URL`).
+- Confirmar rutas del app del generador (`/crear`, `/login`) cuando esté deployado en `markerante.com`.
