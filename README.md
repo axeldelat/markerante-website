@@ -3,7 +3,7 @@
 Landing de marketing de **Markerante**, el hub de herramientas de marketing para restaurantes en LATAM (es-MX). Su trabajo #1 es convertir dueños de restaurante: el CTA "Empieza gratis" los manda al app del generador a crear su sitio.
 
 - **Producción (este sitio):** https://www.markerante.com
-- **App del generador (otro repo/deploy):** https://markerante.com — código en [axeldelat/restaurant-site-generator-0626](https://github.com/axeldelat/restaurant-site-generator-0626)
+- **App del generador (otro repo/deploy):** https://app.markerante.com — código en [axeldelat/restaurant-site-generator-0626](https://github.com/axeldelat/restaurant-site-generator-0626)
 
 > ⚠️ Este repo es el sitio de la **marca Markerante** (paleta lima + mascota Fede). No es el template de los sitios que genera el producto; ese vive en el repo del generador. Reglas de marca, voz y arquitectura: [CLAUDE.md](CLAUDE.md) y [docs/](docs/).
 
@@ -26,7 +26,7 @@ pnpm dev                     # http://localhost:3000
 
 | Variable | Qué es | Producción |
 |---|---|---|
-| `NEXT_PUBLIC_APP_URL` | URL base del app del generador ([repo](https://github.com/axeldelat/restaurant-site-generator-0626)). Los CTAs apuntan a `/crear` y `/login` de esta URL. | `https://markerante.com` |
+| `NEXT_PUBLIC_APP_URL` | URL base del app del generador ([repo](https://github.com/axeldelat/restaurant-site-generator-0626)). Los CTAs apuntan a `/crear` y `/login` de esta URL. | `https://app.markerante.com` |
 | `NEXT_PUBLIC_SITE_URL` | URL canónica de este landing (metadata, sitemap, llms.txt). Vive en `www`. | `https://www.markerante.com` |
 
 Ambas están configuradas en Vercel para Production y Preview. Sin env vars, los defaults de [lib/site.ts](lib/site.ts) usan esos mismos valores.
@@ -59,7 +59,7 @@ pnpm start   # servir el build local
 vercel deploy --prod --yes   # deploy a producción
 ```
 
-**Dominios:** este proyecto lleva `www.markerante.com`. La raíz `markerante.com` pertenece al deploy del app del generador.
+**Dominios:** este proyecto lleva `www.markerante.com`. El app del generador vive en el subdominio `app.markerante.com` (deploy aparte). Los sitios que genera el producto usan subdominios `tunombre.markerante.com`.
 
 ## Relación con el app del generador
 
@@ -75,4 +75,4 @@ El app vive en [axeldelat/restaurant-site-generator-0626](https://github.com/axe
 - Nombre y estructura del plan de pago (`/precios` y sección S9 de la home).
 - Contenido legal real de `/legal/terminos` y `/legal/privacidad` (ARCO).
 - Screenshot real del sitio demo del generador para la sección "Mira un ejemplo" (hoy hay un marco de navegador con ilustración de Fede).
-- Confirmar rutas del app (`/crear`, `/login`) cuando esté deployado en `markerante.com`.
+- Confirmar rutas del app (`/crear`, `/login`) cuando esté deployado en `app.markerante.com`, y actualizar `NEXT_PUBLIC_APP_URL` en Vercel (Production + Preview) a esa URL.
