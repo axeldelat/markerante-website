@@ -43,6 +43,7 @@ export function Example() {
 
       <a
         href={CREATE_URL}
+        data-cta="ejemplo"
         className={cn(
           buttonVariants({ size: "lg" }),
           "mt-10 h-12 rounded-full px-8 text-base font-bold"

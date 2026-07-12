@@ -52,6 +52,7 @@ export function Header() {
         <div className="flex items-center gap-2">
           <a
             href={LOGIN_URL}
+            data-cta="header_entrar"
             className={cn(
               buttonVariants({ variant: "ghost", size: "lg" }),
               "hidden text-sm sm:inline-flex"
@@ -61,6 +62,7 @@ export function Header() {
           </a>
           <a
             href={CREATE_URL}
+            data-cta="header"
             className={cn(
               buttonVariants({ size: "lg" }),
               "rounded-full px-5 font-bold"
@@ -109,12 +111,14 @@ export function Header() {
                 ))}
                 <a
                   href={LOGIN_URL}
+                  data-cta="menu_entrar"
                   className="rounded-md px-3 py-3 text-base font-medium text-ink hover:bg-lime/40"
                 >
                   Entrar
                 </a>
                 <a
                   href={CREATE_URL}
+                  data-cta="menu"
                   className={cn(
                     buttonVariants({ size: "lg" }),
                     "mt-3 rounded-full font-bold"

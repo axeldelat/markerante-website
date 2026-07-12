@@ -56,6 +56,7 @@ export function Footer() {
             </p>
             <a
               href={CREATE_URL}
+              data-cta="footer"
               className="inline-flex items-center rounded-full bg-lime px-5 py-2.5 text-sm font-bold text-ink transition-transform hover:-translate-y-px"
             >
               Empieza gratis

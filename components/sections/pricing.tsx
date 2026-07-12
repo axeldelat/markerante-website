@@ -56,6 +56,7 @@ export function Pricing() {
             </ul>
             <a
               href={CREATE_URL}
+              data-cta="precios"
               className={cn(
                 buttonVariants({ size: "lg" }),
                 "mt-auto h-11 rounded-full font-bold"

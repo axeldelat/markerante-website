@@ -43,6 +43,7 @@ export function Hero() {
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a
               href={CREATE_URL}
+              data-cta="hero"
               className={cn(
                 buttonVariants({ size: "lg" }),
                 "h-12 rounded-full px-8 text-base font-bold"
