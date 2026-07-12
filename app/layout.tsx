@@ -5,6 +5,7 @@ import { Header } from "@/components/site/header";
 import { Footer } from "@/components/site/footer";
 import { JsonLd } from "@/components/site/json-ld";
 import { GtmScript, GtmNoscript } from "@/components/site/gtm";
+import { GtmCtaTracker } from "@/components/site/gtm-cta-tracker";
 import {
   SITE_DESCRIPTION,
   SITE_NAME,
@@ -63,6 +64,7 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <GtmCtaTracker />
         <GtmScript />
       </body>
     </html>

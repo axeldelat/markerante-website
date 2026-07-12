@@ -38,6 +38,7 @@ export function FinalCta() {
         </p>
         <a
           href={CREATE_URL}
+          data-cta="cta_final"
           className={cn(
             buttonVariants({ size: "lg" }),
             "mt-8 h-13 rounded-full px-10 text-lg font-bold"
