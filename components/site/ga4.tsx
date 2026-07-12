@@ -2,7 +2,7 @@ import Script from "next/script";
 
 // GA4 cargado directo con gtag.js (sin GTM). Cross-domain configurado para
 // que la sesión se una entre el landing y el app del generador.
-const GA_ID = "G-9MB5Z511FJ";
+const GA_ID = "G-QYDPFVZQ78";
 
 export function Ga4Script() {
   return (
