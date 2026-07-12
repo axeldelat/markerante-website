@@ -10,6 +10,7 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { CREATE_URL } from "@/lib/site";
 import { FAQ_ITEMS } from "@/lib/faq";
+import { FaqJsonLd } from "@/components/site/faq-json-ld";
 
 export const metadata: Metadata = {
   title: "Preguntas frecuentes",
@@ -21,6 +22,7 @@ export const metadata: Metadata = {
 export default function FaqPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:py-20">
+      <FaqJsonLd items={FAQ_ITEMS} />
       <h1 className="headline text-4xl sm:text-5xl">Preguntas frecuentes</h1>
       <p className="mt-5 text-lg leading-relaxed text-smoke">
         Todo lo que nos preguntan antes de empezar. Si te queda alguna duda,
