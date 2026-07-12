@@ -8,6 +8,12 @@ const ORGANIZATION = {
   logo: `${SITE_URL}/brand/app_icon_negro_512.png`,
   description: SITE_DESCRIPTION,
   areaServed: "MX",
+  sameAs: ["https://www.instagram.com/markerante"],
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "customer support",
+    email: "hola@markerante.com",
+  },
 };
 
 const SOFTWARE_APPLICATION = {

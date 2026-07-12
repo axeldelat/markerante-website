@@ -10,7 +10,7 @@ import { FREE_FEATURES, PAID_FEATURES } from "@/components/sections/pricing";
 import fedePulgar from "@/public/fede/poses/fede_pulgar_arriba.png";
 
 export const metadata: Metadata = {
-  title: "Precios",
+  title: "Precios: sitio web y menú QR gratis",
   description:
     "Crea tu sitio web y menú QR gratis. Suma dominio propio, reseñas de Google y más herramientas cuando las necesites.",
   alternates: { canonical: "/precios" },
