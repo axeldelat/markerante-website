@@ -4,8 +4,8 @@ import { grotesk, roboto } from "./fonts";
 import { Header } from "@/components/site/header";
 import { Footer } from "@/components/site/footer";
 import { JsonLd } from "@/components/site/json-ld";
-import { GtmScript, GtmNoscript } from "@/components/site/gtm";
-import { GtmCtaTracker } from "@/components/site/gtm-cta-tracker";
+import { Ga4Script } from "@/components/site/ga4";
+import { CtaTracker } from "@/components/site/cta-tracker";
 import {
   SITE_DESCRIPTION,
   SITE_NAME,
@@ -59,13 +59,12 @@ export default function RootLayout({
       className={`${grotesk.variable} ${roboto.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-paper text-ink">
-        <GtmNoscript />
         <JsonLd />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
-        <GtmCtaTracker />
-        <GtmScript />
+        <CtaTracker />
+        <Ga4Script />
       </body>
     </html>
   );
