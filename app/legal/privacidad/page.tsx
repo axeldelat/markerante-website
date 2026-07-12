@@ -17,7 +17,7 @@ export default function PrivacidadPage() {
       <p className="mt-5 text-smoke">Última actualización: {LAST_UPDATED}.</p>
 
       <p className="mt-6 leading-relaxed text-smoke">
-        <strong className="text-ink">Axel F. de la Torre G.</strong>, persona
+        <strong className="text-ink">AXEL F DE LA T G</strong>, persona
         física con actividad empresarial, con domicilio en Arenys 103,
         Solidaridad, Playa del Carmen, Quintana Roo, C.P. 77724 (en adelante,
         &ldquo;Markerante&rdquo;), es el responsable del uso, tratamiento y
@@ -35,7 +35,7 @@ export default function PrivacidadPage() {
             1. Responsable de tus datos
           </h2>
           <ul className="mt-3 list-disc space-y-1 pl-5 text-smoke">
-            <li>Responsable: Axel F. de la Torre G.</li>
+            <li>Responsable: AXEL F DE LA T G.</li>
             <li>
               Domicilio: Arenys 103, Solidaridad, Playa del Carmen, Quintana
               Roo, C.P. 77724.
@@ -74,8 +74,8 @@ export default function PrivacidadPage() {
             <li>
               <strong className="text-ink">Si contratas un plan de
               pago:</strong> datos de facturación. Los datos de pago se procesan
-              directamente por nuestro procesador de pagos; Markerante no
-              almacena números completos de tarjeta.
+              directamente por nuestro procesador de pagos (Stripe); Markerante
+              no almacena números completos de tarjeta.
             </li>
           </ul>
           <p className="mt-3 text-smoke">
@@ -128,8 +128,9 @@ export default function PrivacidadPage() {
             Para operar el servicio utilizamos proveedores que tratan datos por
             cuenta de Markerante (encargados), entre ellos: alojamiento e
             infraestructura (Vercel), analítica y medición (Google), servicios
-            de inteligencia artificial para generar el contenido de tu sitio, y
-            nuestro procesador de pagos. Algunos proveedores pueden ubicarse
+            de inteligencia artificial para generar el contenido de tu sitio
+            (Google Gemini), y procesamiento de pagos (Stripe). Algunos
+            proveedores pueden ubicarse
             fuera de México. No transferimos tus datos a terceros para
             finalidades distintas de la prestación del servicio sin tu
             consentimiento, salvo en los casos previstos por el artículo 37 de

@@ -5,9 +5,10 @@
 > Este documento queda como **referencia anotada** con el checklist para el abogado.
 >
 > **Datos confirmados por el responsable (11-jul-2026):**
-> - Responsable: **Axel F. de la Torre G.** (persona física con actividad empresarial) — *confirmar que coincide con nombre oficial/RFC.*
+> - Responsable: **AXEL F DE LA T G** (persona física con actividad empresarial) — texto tal cual pidió el responsable.
 > - Domicilio: **Arenys 103, Solidaridad, Playa del Carmen, Quintana Roo, C.P. 77724**
 > - Correo ARCO: **privacidad@markerante.com**
+> - Procesador de pagos: **Stripe** · IA del generador: **Google Gemini** · Hosting: **Vercel** · Analítica: **Google**
 >
 > ⚠️ **No es asesoría legal.** Fundamento: Ley Federal de Protección de Datos Personales en Posesión de los
 > Particulares (**LFPDPPP**), su Reglamento y los Lineamientos del Aviso de Privacidad. Los campos entre
