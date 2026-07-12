@@ -1,9 +1,17 @@
 # Aviso de Privacidad — Markerante (BORRADOR para revisión legal)
 
-> ⚠️ **BORRADOR. No es asesoría legal.** Documento base para que tu abogado lo revise, ajuste y complete.
-> Los campos entre corchetes `[ASÍ]` son datos que debe confirmar el responsable (razón social, domicilio,
-> correo, etc.). Fundamento: Ley Federal de Protección de Datos Personales en Posesión de los Particulares
-> (**LFPDPPP**), su Reglamento y los Lineamientos del Aviso de Privacidad. Última revisión del borrador: **11 de julio de 2026**.
+> ✅ **YA IMPLEMENTADO EN VIVO.** El aviso final (con los datos confirmados abajo) está en
+> `app/legal/privacidad/page.tsx`, publicado en `www.markerante.com/legal/privacidad` (indexable, sin noindex).
+> Este documento queda como **referencia anotada** con el checklist para el abogado.
+>
+> **Datos confirmados por el responsable (11-jul-2026):**
+> - Responsable: **Axel F. de la Torre G.** (persona física con actividad empresarial) — *confirmar que coincide con nombre oficial/RFC.*
+> - Domicilio: **Arenys 103, Solidaridad, Playa del Carmen, Quintana Roo, C.P. 77724**
+> - Correo ARCO: **privacidad@markerante.com**
+>
+> ⚠️ **No es asesoría legal.** Fundamento: Ley Federal de Protección de Datos Personales en Posesión de los
+> Particulares (**LFPDPPP**), su Reglamento y los Lineamientos del Aviso de Privacidad. Los campos entre
+> corchetes `[ASÍ]` que queden abajo son detalles menores aún genéricos (procesador de pagos, proveedor de IA).
 >
 > Contexto técnico: Markerante opera el sitio de marketing `www.markerante.com` (este repo) y la aplicación
 > del generador en `app.markerante.com`. El landing usa Google Tag Manager (GTM) para analítica; la app recaba
